@@ -10,7 +10,9 @@ body {
   position: relative;
   margin-top: -10em;
   margin-bottom: 0px;
-  margin-left: 42.5%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /* ============================================== Candle
@@ -391,13 +393,25 @@ body {
   }
 }
 
-.happy {
-	position:absolute;
-	left:41%;
-	top:49%;
-	opacity: 1;
-	animation: happybirthdays 10s;
-	animation-delay: 0s;
+@media  (min-width:600px){
+  .happy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    opacity: 1;
+
+  }
+}
+/* 针对最大宽度为600px的屏幕（手机） */
+@media   (max-width: 600px) {
+  .happy {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 1;
+
+  }
+
 }
 @keyframes happybirthdays {
 	0% {
@@ -434,22 +448,46 @@ body {
 	}
 }
 
-.button-style1 ,.button-style2{
-	position:absolute;
-	top:70%;
-	opacity:1;
-	z-index:100;
+
+@media  (min-width:600px){
+  .button-style1 ,.button-style2{
+    position:absolute;
+    top:70%;
+    opacity:1;
+    z-index:100;
+  }
+  .button-style1 {
+    position:absolute;
+    left:25%;
+    animation:btn1 15s;
+  }
+  .button-style2 {
+    position:absolute;
+    right:25.5%;
+    animation:btn2 15s;
+  }
 }
-.button-style1 {
-	position:absolute;
-	left:25%;
-	animation:btn1 15s;
+/* 针对最大宽度为600px的屏幕（手机） */
+@media   (max-width: 600px) {
+  .button-style1 ,.button-style2{
+    position:absolute;
+    top:70%;
+    opacity:1;
+    z-index:100;
+  }
+  .button-style1 {
+    position:absolute;
+    left:0%;
+    animation:btn1 15s;
+  }
+  .button-style2 {
+    position:absolute;
+    right:0%;
+    animation:btn2 15s;
+  }
 }
-.button-style2 {
-	position:absolute;
-	right:25.5%;
-	animation:btn2 15s;
-}
+
+
 @keyframes btn1 {
 	0% {
 		opacity:0;
@@ -513,7 +551,7 @@ body {
 	transition:all 0.5s;
 }
 .link1,.link2 {
-	width:230px;
+	width:170px;
 	height:60px;
 	border:2px solid #fff;
 	-webkit-border:1px solid #fff;

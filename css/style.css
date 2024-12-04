@@ -661,22 +661,49 @@
 }
 
 /* 盒子 */
-.ly-box11 {
-	width: 21%;
-	height: 600px;
-	border: 2px #CCC;
-	background-color: #fff;
-	background-color: rgba(255,255,255,0.6);
-	border-radius: 8px;
-	position: absolute;
-	left: 23%;
-	top:10%;
-	overflow: hidden;
-	opacity: 0;
-	-webkit-transform: scale(0.5, 0.5);
-	transform: scale(0.5, 0.5);
-	transition: all 1s;
-}
+@media  (min-width:600px){
+	.ly-box11 {
+		width: 30%;
+		height: 600px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top:10%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+  }
+  /* 针对最大宽度为600px的屏幕（手机） */
+  @media   (max-width: 600px) {
+	.ly-box11 {
+		width: 79%;
+		height: 600px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255, 255, 255, 0.6);
+		border-radius: 8px;
+		/* position: absolute; */
+		/* left: 23%; */
+		/* top: 10%; */
+		display: flex;
+		flex-wrap: wrap;
+		height: 50%;
+		flex-direction: column;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  }
 .active .ly-box11{
 	opacity: 0.9;
 	-webkit-transform: scale(1, 1);
@@ -763,17 +790,17 @@
 	opacity: 1;
 	transition-delay: 4s;
 }
-
+@media  (min-width:600px){
 /* 盒子 */
 .ly-box12 {
-	width: 40%;
+	width: 30%;
 	height: 750px;
 	border: 2px #CCC;
 	background-color: #fff;
 	background-color: rgba(255,255,255,0.6);
 	border-radius: 8px;
 	position: absolute;
-	left: 50%;
+	left: 60%;
 	top:10%;
 	overflow: hidden;
 	opacity: 0;
@@ -781,6 +808,29 @@
 	transform: scale(0.5, 0.5);
 	transition: all 1s;
 }
+  }
+  /* 针对最大宽度为600px的屏幕（手机） */
+  @media   (max-width: 600px) {
+	.ly-box12 {
+		width: 79%;
+		height: 750px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		display: flex;
+		flex-wrap: wrap;
+		height: 50%;
+		flex-direction: column;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  }
 .active .ly-box12{
 	opacity: 0.9;
 	-webkit-transform: scale(1, 1);
@@ -1210,22 +1260,52 @@
 	transition-delay: 2s;
 }
 /* 盒子 */
-.ly-box31 {
-	width: 30%;
-	height: 600px;
-	border: 2px #CCC;
-	background-color: #fff;
-	background-color: rgba(255,255,255,0.6);
-	border-radius: 8px;
-	position: absolute;
-	left: 23%;
-	top:10%;
-	overflow: hidden;
-	opacity: 0;
-	-webkit-transform: scale(0.5, 0.5);
-	transform: scale(0.5, 0.5);
-	transition: all 1s;
-}
+
+
+@media  (min-width:600px){
+	.ly-box31 {
+		width: 30%;
+		height: 600px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top:10%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+  }
+  /* 针对最大宽度为600px的屏幕（手机） */
+  @media   (max-width: 600px) {
+	.ly-box31 {
+		width: 79%;
+		height: 600px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255, 255, 255, 0.6);
+		border-radius: 8px;
+		/* position: absolute; */
+		/* left: 23%; */
+		/* top: 10%; */
+		display: flex;
+		flex-wrap: wrap;
+		height: 50%;
+		flex-direction: column;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  }
+
 .active .ly-box31{
 	opacity: 0.9;
 	-webkit-transform: scale(1, 1);
@@ -1318,22 +1398,51 @@
 }
 
 /* 盒子 */
-.ly-box32 {
-	width: 33%;
-	height: 450px;
-	border: 2px #CCC;
-	background-color: #fff;
-	background-color: rgba(255,255,255,0.6);
-	border-radius: 8px;
-	position: absolute;
-	left: 57%;
-	top:10%;
-	overflow: hidden;
-	opacity: 0;
-	-webkit-transform: scale(0.5, 0.5);
-	transform: scale(0.5, 0.5);
-	transition: all 1s;
-}
+
+@media  (min-width:600px){
+	.ly-box32 {
+		width: 33%;
+		height: 450px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 57%;
+		top:10%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
+	
+  }
+  /* 针对最大宽度为600px的屏幕（手机） */
+  @media   (max-width: 600px) {
+	.ly-box32 {
+		width: 79%;
+		height: 600px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255, 255, 255, 0.6);
+		border-radius: 8px;
+		/* position: absolute; */
+		/* left: 23%; */
+		/* top: 10%; */
+		display: flex;
+		flex-wrap: wrap;
+		height: 50%;
+		flex-direction: column;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  }
 .active .ly-box32{
 	opacity: 0.9;
 	-webkit-transform: scale(1, 1);
@@ -1792,23 +1901,46 @@
 	margin-left:-200px;
 	bottom: 0;
 }
-
-.ly-box81 {
-	width: 15%;
-	height: 600px;
-	border: 2px #CCC;
-	background-color: #fff;
-	background-color: rgba(255,255,255,0.6);
-	border-radius: 8px;
-	position: absolute;
-	left: 23%;
-	top:10%;
-	overflow: hidden;
-	opacity: 0;
-	-webkit-transform: scale(0.5, 0.5);
-	transform: scale(0.5, 0.5);
-	transition: all 1s;
+@media  (min-width:600px){
+	.ly-box81 {
+		width: 30%;
+		height: 600px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 23%;
+		top:10%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
 }
+  /* 针对最大宽度为600px的屏幕（手机） */
+  @media   (max-width: 600px) {
+	.ly-box81 {
+		width: 79%;
+		height: 600px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		display: flex;
+		flex-wrap: wrap;
+		height: 50%;
+		flex-direction: column;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  }
 .active .ly-box81{
 	opacity: 0.9;
 	-webkit-transform: scale(1, 1);
@@ -1853,22 +1985,47 @@
 	bottom: 0;
 }
 
-.ly-box82 {
-	width: 54%;
-	height: 600px;
-	border: 2px #CCC;
-	background-color: #fff;
-	background-color: rgba(255,255,255,0.6);
-	border-radius: 8px;
-	position: absolute;
-	left: 42%;
-	top:10%;
-	overflow: hidden;
-	opacity: 0;
-	-webkit-transform: scale(0.5, 0.5);
-	transform: scale(0.5, 0.5);
-	transition: all 1s;
+
+@media  (min-width:600px){
+	.ly-box82 {
+		width: 54%;
+		height: 600px;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		position: absolute;
+		left: 42%;
+		top:10%;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+	}
 }
+  /* 针对最大宽度为600px的屏幕（手机） */
+  @media   (max-width: 600px) {
+	.ly-box82 {
+		width: 79%;
+		height: 50%;
+		border: 2px #CCC;
+		background-color: #fff;
+		background-color: rgba(255,255,255,0.6);
+		border-radius: 8px;
+		display: flex;
+		flex-wrap: wrap;
+		height: 50%;
+		flex-direction: column;
+		overflow: hidden;
+		opacity: 0;
+		-webkit-transform: scale(0.5, 0.5);
+		transform: scale(0.5, 0.5);
+		transition: all 1s;
+		margin-left: auto;
+		margin-right: auto;
+	}
+  }
 .active .ly-box82{
 	opacity: 0.9;
 	-webkit-transform: scale(1, 1);
