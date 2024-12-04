@@ -693,7 +693,7 @@
 		/* top: 10%; */
 		display: flex;
 		flex-wrap: wrap;
-		height: 50%;
+		height: 30%;
 		flex-direction: column;
 		overflow: hidden;
 		opacity: 0;
@@ -820,7 +820,7 @@
 		border-radius: 8px;
 		display: flex;
 		flex-wrap: wrap;
-		height: 50%;
+		height: 60%;
 		flex-direction: column;
 		overflow: hidden;
 		opacity: 0;
@@ -882,7 +882,7 @@
 .ly-txt14 {
 	text-indent:2em;
 	font-family: Microsoft YaHei;
-	font-size: 18px;
+	font-size: 16px;
 	font-color: #000;
 	position: absolute;
 	margin-left:30px;
@@ -1294,7 +1294,7 @@
 		/* top: 10%; */
 		display: flex;
 		flex-wrap: wrap;
-		height: 50%;
+		height: 45%;
 		flex-direction: column;
 		overflow: hidden;
 		opacity: 0;
@@ -1432,7 +1432,7 @@
 		/* top: 10%; */
 		display: flex;
 		flex-wrap: wrap;
-		height: 50%;
+		height: 45%;
 		flex-direction: column;
 		overflow: hidden;
 		opacity: 0;
@@ -1930,7 +1930,7 @@
 		border-radius: 8px;
 		display: flex;
 		flex-wrap: wrap;
-		height: 50%;
+		height: 40%;
 		flex-direction: column;
 		overflow: hidden;
 		opacity: 0;
